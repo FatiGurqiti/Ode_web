@@ -12,7 +12,7 @@
 ### About Website
 
 
-This website was designed to show the öde app. It does not contain an algorithm of opertaion. Instead, this is a promotion of the app. You can get a better idea what it is and even download it from here.
+This website was designed to show the öde app. It does not contain an algorithm or opertaion. Instead, this is a promotion of the app. You can get a better idea what it is and even download it from here.
 
 ### Usage
 
@@ -45,7 +45,6 @@ function langTR()
   location.replace("./index.php?lang=<?php echo "TR" ?>");
 }
   </script>
-
  ``
 
 These functions changes the url, adding **lang** variable to the link.
