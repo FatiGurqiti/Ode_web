@@ -31,14 +31,14 @@ First, **JavaScript** get's the choise from **select** tag
          <option <?php englishSelected(); ?> onclick="langEN()">English</option> 
       <option   <?php turkishSelected(); ?>  onclick="langTR()" >Türkçe</option> 
     </select>
-    ```
+```
 
 Once language is selected, JavaScipt runs the function you selected.
 
 ```
  function langEN(){location.replace("./index.php?lang=<?php echo "EN" ?>");} 
  function langTR(){location.replace("./index.php?lang=<?php echo "TR" ?>");} 
-  ```
+```
 
 These functions changes the url, adding **lang** variable to the link.
 Then **PHP** get this variable
@@ -46,7 +46,7 @@ Then **PHP** get this variable
 ```
  function englishSelected(){if($_GET["lang"] == "EN") echo "selected='selected' ";} 
  function turkishSelected() {if($_GET["lang"] == "TR") echo "selected='selected' ";} 
-  ```
+```
 
 
 Since we have **lang** variable now, we have the knowledge of the selected languange. Thus, **PHP** can run the **selectLanguange** function
@@ -55,7 +55,7 @@ Since we have **lang** variable now, we have the knowledge of the selected langu
  function selectLanguange($EN,$TR){ 
   if($_GET["lang"] == "EN") echo $EN; 
   if($_GET["lang"] == "TR") echo $TR;}
-   ```
+```
 
 When typing in an **HTML** tag, the texts are written in a **PHP** function
 
