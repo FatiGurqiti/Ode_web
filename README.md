@@ -26,19 +26,19 @@ When you made your choise the website will change it's languange instantly witho
 This is being done by both **JavaScript** and **PHP**
 First, **JavaScript** get's the choise from **select** tag
 
-``
+```
 <select class="selectpicker languange" data-width="fit"> 
          <option <?php englishSelected(); ?> onclick="langEN()">English</option> 
       <option   <?php turkishSelected(); ?>  onclick="langTR()" >Türkçe</option> 
     </select>
-    ``
+    ```
 
 Once language is selected, JavaScipt runs the function you selected.
 
-``
+```
  function langEN(){location.replace("./index.php?lang=<?php echo "EN" ?>");} 
  function langTR(){location.replace("./index.php?lang=<?php echo "TR" ?>");} 
-  ``
+  ```
 
 These functions changes the url, adding **lang** variable to the link.
 Then **PHP** get this variable
