@@ -1,0 +1,520 @@
+.header
+{
+    background-color:white;
+}
+:root {
+    --awsome: #1e90ff;
+    --maximum: #ffffff;
+    
+  }
+.logo
+{
+    height: 80px;
+    margin: 10px 10px 10px 50px ;
+}
+
+.fdev
+{
+  color: var(--awsome);
+  potential: var(--maximum);
+}
+
+.headerContent
+{
+    padding-left: 25%;
+    font-size: 25px;
+}
+.nav-link
+{
+    margin-left: 18px;
+}
+.pinkDiv
+{
+    background-color: #FF6EA1;
+    width: 100%;
+    height: 600px;
+    padding-top:50px;
+}
+.PhoneDiv
+{
+height:500px;
+width: 240px;
+margin-left:2.5%;
+background-color: white;
+border-radius: 25px;
+box-shadow: 5px 6px #4a3332;
+}
+
+.phonePhoto
+{
+    height: 100%;
+    padding-bottom:2.5%;
+    padding-left: 1%;
+}
+.firstText
+{
+    float: right;
+    color: white;
+    margin-right: 28%;
+    margin-top:-28%;
+    font-family: Georgia, serif;
+    font-size: 55px;
+
+}
+
+.friendly
+{
+    font-size: 20px;
+    text-align: center;
+}
+.friendlier
+{
+    font-size: 12px;
+    
+    text-align: center;
+}
+
+.download
+{
+    height: 20%;
+    width: 50%;
+    margin-left: 27%;
+    margin-top:-10%;
+    padding-left: 120px;
+}
+
+.googlePlay
+{
+    height: 90%;
+    margin-top: -50px;
+}
+
+.appStore
+{
+    height: 185%;
+    margin-top: -50px;
+}
+.midIcons
+{
+    width: 100%;
+    height: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top:2%;
+    
+}
+
+.GetLoan
+{
+    height: 100px;
+    margin-left:7%;
+}
+
+.GetDept
+{
+    height: 100px;
+    margin-left:39%;
+}
+
+.firstLine{
+    width: 80%;
+    border-radius: 5px;
+}
+
+.SecondText
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.checkList
+{
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 10%;
+    font-family: Garamond, serif;
+}
+
+.checkIcon
+{
+    height: 50px;
+    width: 50px;
+}
+
+.FatiEdit
+{
+    height: 75px;
+}
+
+.checkInfo
+{
+    margin-left:10%;
+}
+
+.bottomDiv
+{
+    text-align: center;
+}
+.signUp
+{
+  
+    font-size: 35px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 50%;
+
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 80%;
+}
+
+.right{
+    width: 50%;
+    float: right;
+    height: 80%;
+}
+
+.texts
+{
+    padding-left: 10%;
+}
+
+.track
+{
+   margin-top:25%;
+   height: 700px;
+}
+
+.bottom
+{
+    bottom:0;
+    background-color: black;
+    margin-top:200%;
+}
+
+.socialMedia
+{
+    height: 25px;
+    width: 25px;
+    margin-left:15px;
+}
+
+.TrackDeptText{
+    font-size: 50px;
+    margin-top: 200px;
+}
+.TrackLoanText{
+    font-size: 50px;
+    margin-top:200px
+}
+.getApp{
+    font-size: 50px;
+    color: white;
+    margin-top: 10%;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+.logoLarge{
+    margin-left: 18%;
+    margin-top: 25%;
+}
+
+.title{
+    font-size: 40px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.innertitle{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.aboutDiv{
+    margin-top: 30%;
+    text-align: center;
+}
+.developedDiv{
+    margin-top: 10%;
+    text-align: center;
+}
+.innerText{
+    text-align: center;
+    margin-top:10%;
+}
+
+.innertitleTeam{
+    text-align: right;
+    margin-top:10%;
+}
+.teamMainDiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+.You_Are{
+    font-size: 50px;
+}
+#like{
+    font-size: 20px;
+}
+#firstLine{
+    margin-top:100px;
+}
+.tracktrack{
+    margin-top:300px;
+}
+.Never{
+    font-size: 25px;
+}
+.trackLoanImage{
+    margin-top:300px;
+}
+.footerbg{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.bodyBG{
+    background-color: #1d1d1f;
+    color: white;
+}
+.What_is_Ode{
+    text-align: center;
+}
+.whiteAbout{
+    background-color: white;
+}
+.aboutFooter{
+    margin-top: 10%;
+}
+.Company{
+    margin-top:10px;
+}
+.avatar{
+    height: 300px;width: 300px; border-radius: 50%;
+}
+.blueBG{
+    text-align: center;
+    background-color: #1FABE7;
+}
+.DownloadAndroid{
+    color:white;
+}
+
+.languange{
+    margin-left: 45%;
+    position:absolute;
+    float: right;
+}
+.iconAlign{
+    margin-top: 200px;
+    margin-right: 70px;
+}
+.mySlides {display:none;}
+
+.sliderphoto{
+    width: 80%;
+    height: 50%;
+}
+.contactDiv{
+    margin-top: 15%;
+    width: 100%;
+    background-color: #36332d;
+    height: 1000px;
+}
+.cont{
+    text-align: center;
+    color: white;
+}
+
+.input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .input {
+    background-color: #181a19;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input:hover {
+    background-color: #8ea0a0;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;}
+    
+    #mail{
+        width: 100%;
+        height: 20%;
+    }
+
+@media screen and (max-width: 600px) {
+
+  
+    .iconAlign{
+        margin-left:-150px;
+    }
+    .DD{
+        padding-top: 30%;
+    }
+    .go{
+
+        padding: 2.5%;
+        position: absolute;
+        left: 0;
+        margin-left: 20%;
+        width: 70%;
+        height: 70%;
+    }
+    .ap{
+        padding: 5%;
+        position: absolute;
+        left: 0;
+        margin-left: 20%;
+        width: 69%;
+        height: 70%;
+    }
+    .languange{
+        margin-left: 10px;
+        margin-top: 50px;
+        position: unset;
+    }
+    .pinkDiv {
+        width: 100%;
+        height:1200px;
+      }
+      .PhoneDiv{
+        margin-left:40px;
+    }
+    .logo{
+        margin-left:60px;
+    }
+    .firstText{
+        font-size: 10xp;
+        margin-top:10px;
+        text-align: center;    
+    }
+    .keep{
+        font-size: 35px;
+        margin-left: 100px;
+    }
+    .friendly{margin-left: 100px;}
+    .friendlier{margin-left: 100px;}
+    .googlePlay
+    {
+        height: 100px;
+        margin-top: 10px;
+    }
+   
+    
+    .appStore
+    {
+        height: 220px;
+        margin-top: 5px;
+    }
+   
+    .GetLoan{
+        margin-left: 50px;
+    }
+    .GetDept{
+        margin-top: 50px;
+        margin-left:-1px;
+    }
+    .firstLine{
+        margin-top:100px;
+    }
+    .smallFriendly{
+        margin-right: 100px;
+    }
+   
+    .everybody{
+        margin-top:50px;
+    }
+    .FatiEdit{
+        width: 280px;
+        margin-left: -40px;
+    }
+  
+    #PhoneTrackDebt{
+      height: 500px;
+      width: 300px;
+      margin-left: 100px;
+    }
+    #PhoneTrackLoan{
+        display: none;
+     }
+     #PhoneSignUp{
+        height: 500px;
+        width: 300px;
+        margin-left:-50px;
+     }
+     .signUp{
+        margin-top: 500px;
+        width: 100%;
+       margin-left: 120px;
+    }
+
+   .displayNone{display: none;}
+
+   .signUpText{
+       margin-left: 120px;
+       margin-top:50px;
+       width: 100%;
+   }
+   .downloadbtn{
+       margin-left: 120px;
+       width: 80%;
+   }
+   .TrackDeptText{
+       margin-top: 500px;
+       width: 100%;
+   }
+   .TrackLoanText{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 100px;
+    width: 100%;
+}
+#TrackLoanSubText{
+    margin-left:120px;
+    margin-top:100px;
+    width: 100%;
+}
+.downloadbtn{
+    margin-left: 130px;
+}
+#footer{
+   padding-top:2000px;
+}
+.aboutDiv{
+    margin-top:170%;
+    
+}
+.right
+{
+    margin-top:45%;
+    margin-right:20%;
+}
+.GP{
+    margin-top:35%;
+}
+.TrackLoanText {
+    margin-left:120px;
+}
+  }
