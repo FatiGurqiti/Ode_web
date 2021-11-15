@@ -36,55 +36,38 @@ First, **JavaScript** get's the choise from **select** tag
 Once languange is selected, JavaScipt runs the function you selected.
 
 ``
-function langEN()
-{
-  location.replace("./index.php?lang=<?php echo "EN" ?>");
-}
-function langTR()
-{
-  location.replace("./index.php?lang=<?php echo "TR" ?>");
-}
-  </script>
- ``
+ function langEN(){location.replace("./index.php?lang=<?php echo "EN" ?>");}
+ function langTR(){location.replace("./index.php?lang=<?php echo "TR" ?>");}
+  ``
 
 These functions changes the url, adding **lang** variable to the link.
 Then **PHP** get this variable
 
 ``
-function englishSelected()
-{
-  if($_GET["lang"] == "EN") echo "selected='selected' ";
-}
-
-function turkishSelected()
-{
-  if($_GET["lang"] == "TR") echo "selected='selected' ";
-}
- ``
+ function englishSelected(){if($_GET["lang"] == "EN") echo "selected='selected' ";}
+ function turkishSelected() {if($_GET["lang"] == "TR") echo "selected='selected' ";}
+  ``
 
 
 Since we have **lang** variable now, we have the knowledge of the selected languange. Thus, **PHP** can run the **selectLanguange** function
 
 ``
-function selectLanguange($EN,$TR)
-{
+ function selectLanguange($EN,$TR){
   if($_GET["lang"] == "EN") echo $EN;
-
-  if($_GET["lang"] == "TR") echo $TR;
-}
- ``
+  if($_GET["lang"] == "TR") echo $TR;}
+   ``
 
 When typing in an **HTML** tag, the texts are written in a **PHP** function
 
 ``
-<p class="keep"><?php selectLanguange("KEEP ON TRACK!","TAKİPTE KAL!");  ?></p>
- ``
+ <p class="keep"><?php selectLanguange("KEEP ON TRACK!","TAKİPTE KAL!");  ?></p>
+  ``
 
 The first variable is the English of the word and second one is the Turkish.
 
 ![Image of Turkish](https://github.com/FatiGurqiti/odeWeb/blob/develop/images%20for%20git/2.bmp)
 
-Afterwhile, you may scroll down preview the app
+Afterwhile, you may scroll down to preview the app
 
 ![Image of App](https://github.com/FatiGurqiti/odeWeb/blob/develop/images%20for%20git/3.bmp)
 
