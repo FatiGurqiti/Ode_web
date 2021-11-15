@@ -27,41 +27,39 @@ This is being done by both **JavaScript** and **PHP**
 First, **JavaScript** get's the choise from **select** tag
 
 ``
-<select class="selectpicker languange" data-width="fit"> \n
-         <option <?php englishSelected(); ?> onclick="langEN()">English</option> \n
-      <option   <?php turkishSelected(); ?>  onclick="langTR()" >Türkçe</option> \n
+<select class="selectpicker languange" data-width="fit"> 
+         <option <?php englishSelected(); ?> onclick="langEN()">English</option> 
+      <option   <?php turkishSelected(); ?>  onclick="langTR()" >Türkçe</option> 
     </select>
     ``
 
 Once language is selected, JavaScipt runs the function you selected.
 
 ``
- function langEN(){location.replace("./index.php?lang=<?php echo "EN" ?>");} \n
- function langTR(){location.replace("./index.php?lang=<?php echo "TR" ?>");} \n
+ function langEN(){location.replace("./index.php?lang=<?php echo "EN" ?>");} 
+ function langTR(){location.replace("./index.php?lang=<?php echo "TR" ?>");} 
   ``
 
 These functions changes the url, adding **lang** variable to the link.
 Then **PHP** get this variable
 
-``
- function englishSelected(){if($_GET["lang"] == "EN") echo "selected='selected' ";} \n
- function turkishSelected() {if($_GET["lang"] == "TR") echo "selected='selected' ";} \n
-  ``
+```
+ function englishSelected(){if($_GET["lang"] == "EN") echo "selected='selected' ";} 
+ function turkishSelected() {if($_GET["lang"] == "TR") echo "selected='selected' ";} 
+  ```
 
 
 Since we have **lang** variable now, we have the knowledge of the selected languange. Thus, **PHP** can run the **selectLanguange** function
 
-``
- function selectLanguange($EN,$TR){ \n
-  if($_GET["lang"] == "EN") echo $EN; \n
+```
+ function selectLanguange($EN,$TR){ 
+  if($_GET["lang"] == "EN") echo $EN; 
   if($_GET["lang"] == "TR") echo $TR;}
-   ``
+   ```
 
 When typing in an **HTML** tag, the texts are written in a **PHP** function
 
- ``
-  <p class="keep"><?php selectLanguange("KEEP ON TRACK!","TAKİPTE KAL!");  ?></p>
-   ``
+ ` <p class="keep"><?php selectLanguange("KEEP ON TRACK!","TAKİPTE KAL!");  ?></p> `
 
 The first variable is the English of the word and second one is the Turkish.
 
