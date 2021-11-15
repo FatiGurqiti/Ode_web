@@ -46,7 +46,7 @@ function langTR()
 }
   </script>
 
-``
+ ``
 
 These functions changes the url, adding **lang** variable to the link.
 Then **PHP** get this variable
@@ -61,7 +61,7 @@ function turkishSelected()
 {
   if($_GET["lang"] == "TR") echo "selected='selected' ";
 }
-``
+ ``
 
 
 Since we have **lang** variable now, we have the knowledge of the selected languange. Thus, **PHP** can run the **selectLanguange** function
@@ -73,13 +73,13 @@ function selectLanguange($EN,$TR)
 
   if($_GET["lang"] == "TR") echo $TR;
 }
-``
+ ``
 
 When typing in an **HTML** tag, the texts are written in a **PHP** function
 
 ``
 <p class="keep"><?php selectLanguange("KEEP ON TRACK!","TAKİPTE KAL!");  ?></p>
-``
+ ``
 
 The first variable is the English of the word and second one is the Turkish.
 
