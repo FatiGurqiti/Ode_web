@@ -1,4 +1,4 @@
-# odeWeb
+# Öde Web
 
 **Öde** is a website of the android project of öde app, which was made for the Web Developement class in VSITE university.
 
